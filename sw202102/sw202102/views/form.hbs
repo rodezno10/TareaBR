@@ -1,0 +1,15 @@
+<h1>Formulario en Express</h1>
+<form action="/form" method="post">
+  <label for="txtNombre">Nombre</label>
+  <input type="text" placeholder="Nombre"
+    name="txtNombre" id="txtNombre" value="{{nombre}}"
+    />
+    <br>
+    <label for="txtApellido">Apellidos</label>
+  <input type="text" placeholder="Apellidos"
+    name="txtApellido" id="txtApellido" value="{{apellido}}"
+    />
+  <button name="btnEnviar" type="submit">
+    Enviar
+  </button>
+</form>
